@@ -1,0 +1,1525 @@
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+
+			overflow-x: hidden;
+		}
+		header{
+			background-image: url('2.jpg');
+			background-size: 100% 100%;
+		}
+		.headline{
+			width: 100%;
+			height: 13vh;
+			
+			text-align: center;
+			font-size: 30px;
+			 background-image: linear-gradient(to left, blue,yellow,pink);
+			 animation:kunal 0.5s infinite alternate ease-out;
+			 opacity: 0.8;
+		}
+		.headline h1{
+			font-family: monotype corsiva;
+			text-transform: capitalize;
+			line-height: 100px;
+			text-shadow: 4px 4px 10px blue;
+			opacity:1;
+			animation:kunal1 5s infinite alternate ease-in-out;
+		}
+		@keyframes kunal1{
+    0%{
+        color:groove ;
+    }
+    50%{
+        transform: rotateY(90deg);
+        font-size:10px;
+    }
+    100%{
+    	color:red;
+    	 transform: rotateY(0deg);
+        font-size:100px;
+    }
+}
+		@keyframes kunal{
+    0%{
+        background-image: linear-gradient(to right, blue,yellow,pink);
+    }
+
+    100%{
+        background-image: linear-gradient(to right, pink,blue,yellow);
+    }
+}
+
+	nav{
+		box-shadow: 4px 4px 10px gray;
+		width: 100%;
+		height:100px;
+		background: #444;
+		display:flex;
+		flex-direction: row;
+	}
+	nav img{
+		width:100px;
+		height :95px;
+		margin-top: 2.5px;
+		margin-left:10px ; 
+	}
+	nav button{
+		display: none;
+	}
+	nav ul{
+		/*border: 3px solid lime;*/
+		width:55%;
+		height: 80%;
+		position:relative;
+		left:37%;
+		top:10px;
+		display: block;
+
+	}
+	nav ul li{
+		float:left;
+		margin-top:10px; 
+		padding: 10px 50px;
+		font-size: 22px;
+		list-style: none;
+
+		
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: white;
+		text-transform: capitalize;
+	}
+
+	nav ul li:hover{
+		background-color:lightgreen;
+		color: black;
+	}
+#btn_hide{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+	}
+#btn_hide1{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+}
+#btn_hide2{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+}
+#btn_hide3{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+}
+#btn_hide4{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+}
+#btn_hide5{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 78%;
+}
+.box_content{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_computer{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_computer button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;	
+}
+.box_content_sci{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_sci button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;	
+}
+.box_content_hindi{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_hindi button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;	
+}
+
+
+
+.box_content_math{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_math button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;	
+}
+
+
+
+.box_content_sst{
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+	border: 2px solid red;
+
+}
+.box_content_sst button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;	
+}
+
+
+.box_content button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		
+
+}
+
+.showme{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+.showme_computer{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme_computer button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+.showme_sci{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme_sci button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+.showme_hindi{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme_hindi button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+
+
+
+
+
+.showme_math{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme_math button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+
+.showme_sst{
+	display: none;
+	width: 100%;
+	height: 90%;
+}
+.showme_sst button{
+			width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 60%;
+}
+
+.select_ch {
+	width: 100%;
+	height:100%;
+	background-color: white;
+
+}
+.select_ch button{
+border-radius: 7px;
+margin-left: 0;
+
+margin-top: 3%;
+margin-left: 6%;
+			width:180px;
+		height: 60px;
+}
+.select_ch h1{
+	font-size: 20px;
+	color: purple;
+	font-family: monotype corsiva;
+}
+.showme2 embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+
+embed{
+
+	width: 100%;
+	height: 100%;
+}
+.showme2 button{
+	margin-left: 20%;
+}
+.showme2{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_computer button{
+	margin-left: 20%;
+}
+.showme2_computer{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_computer embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.showme2_sci button{
+	margin-left: 20%;
+}
+.showme2_sci{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_sci embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.showme2_hindi button{
+	margin-left: 20%;
+}
+.showme2_hindi{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_hindi embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+.showme2_math button{
+	margin-left: 20%;
+}
+.showme2_math{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_math embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+
+
+.showme2_sst button{
+	margin-left: 20%;
+}
+.showme2_sst{
+	display: none;
+	width:100%;
+	height:100%;
+}
+.showme2_sst embed{
+	display :none;
+	width: 100%;
+	height: 100%;
+}
+	.note_english{
+
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		margin-left: 13%;
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.eng_icon{
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		
+		margin-left: 30px;
+	}
+	.eng_icon img{
+		width:80%;
+		height:50%;
+	}
+	.eng_content{
+		background-color: orange;
+		width: 100%;
+		height: 48%;
+	}
+	.note_english h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.eng_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.eng_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+	#english{
+		display: flex;
+		flex-direction: row;
+	}
+	.eng_pdf{
+		margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+	.eng_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.computer_pdf{
+		margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+		.computer_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.math_pdf{
+				margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+		.math_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.sst_pdf{
+		margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+		.sst_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.hindi_pdf{
+				margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+		.hindi_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.science_pdf{
+				margin-left:;
+		margin-top:10px;
+		width: 99.99%;
+		box-shadow: 4px 4px 10px 5px gray;
+		height:90vh;
+		
+		display: none;
+	}
+		.science_pdf embed{
+		width: 100%;
+		height: 100%;
+	}
+	.note_hindi{
+		margin-left: 13%;
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.hindi_icon{
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		
+		margin-left: 30px;
+	}
+	.hindi_icon img{
+		width:80%;
+		height:50%;
+	}
+	.hindi_content{
+		background-color:yellow;
+		width: 100%;
+		height: 48%;
+	}
+	.note_hindi h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.hindi_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.hindi_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+	.note_math{
+		margin-left: 13%;
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.math_icon{
+
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		
+		margin-left: 30px;
+	}
+	.math_icon img{
+		width:80%;
+		height:50%;
+	}
+	.math_content{
+		background-color: red;
+		width: 100%;
+		height: 48%;
+	}
+	.note_math h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.math_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.math_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+
+	.note_sst{
+		margin-left: 13%;
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.sst_icon{
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		
+		margin-left: 30px;
+	}
+	.sst_icon img{
+		width:80%;
+		height:50%;
+	}
+	.sst_content{
+		background-color:lightgreen;
+		width: 100%;
+		height: 48%;
+	}
+	.note_sst h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.sst_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.sst_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+
+		.note_computer{
+
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		margin-left: 13%;
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.computer_icon{
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		margin-left: 30px;
+	}
+	.computer_icon img{
+		width:80%;
+		height:50%;
+
+	}
+	.computer_content{
+		background-color: pink;
+		width: 100%;
+		height: 48%;
+	}
+	.note_computer h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.computer_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.computer_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+
+	.note_science{
+
+		box-shadow: 4px 4px 10px 5px gray;
+		margin-top: 20px;
+		margin-left: 13%;
+		width: 17%;
+		height:280px;
+		overflow: hidden;
+
+	}
+	.science_icon{
+		/*border: 2px solid aqua;*/
+		text-shadow: 4px 4px 10px red;
+		width:70%;
+		height:50%;
+		margin-left:3.5px;
+		overflow: hidden;
+		
+		margin-left: 30px;
+	}
+	.science_icon img{
+		width:80%;
+		height:50%;
+	}
+	.science_content{
+		background-color: skyblue;
+		width: 100%;
+		height: 48%;
+	}
+	.note_science h3{
+		text-transform: capitalize;
+		text-align: center;
+		color:blue;
+		text-shadow: 4px 4px 10px red;
+	}
+	.science_content button{
+		width: 130px;
+		background-color: blue;
+		border:none;
+		height: 50px;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.science_content button a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color:white;
+		font-size: 16px;
+
+
+	}
+
+.next_item{
+	margin-top: 5%;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height:49vh;
+}
+.showbox2{
+	padding:0;
+}
+
+@media (max-width: 1151px){
+			
+.headline{
+	font-size: 20px;
+}
+  	nav ul li:hover{
+  		background-color: red;
+  		border-radius: 15px;
+	}
+	nav{
+		height: 80px;
+	}
+	nav img{
+		height:75px;
+		
+	}
+	.note_english{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+		}
+	.note_computer{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+		}
+	.note_sst{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+
+
+		}
+	.note_science{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+
+		}
+	.note_hindi{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+		}
+	.note_math{
+		width:20%;
+		height: ;
+		margin-left: 10%;
+		}
+
+	@keyframes kunal1{
+    0%{
+        color:groove ;
+    }
+    50%{
+        transform: rotateY(90deg);
+        font-size:10px;
+    }
+    100%{
+    	color:red;
+    	 transform: rotateY(0deg);
+        font-size:40px;
+    }
+
+}
+}
+@media (max-width: 1080px){
+
+	nav{
+		width:100%;
+		height: 70px;
+
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	nav ul li{
+		margin-top: 4px;
+		padding:0;
+		line-height: 40px;
+		width: 100px;
+		height: 75%;
+		text-align: center;
+	}
+	nav ul{
+		margin-left: 10%;
+	}
+		.note_english{
+		width:22%;
+		height: ;
+		margin-left: 8%;
+		}
+	.note_computer{
+		width:22%;
+		height: ;
+		margin-left: 10%;
+		}
+	.note_sst{
+		width:22%;
+		height: ;
+		margin-left: 10%;
+
+
+		}
+	.note_science{
+		width:22%;
+		height: ;
+		margin-left: 8%;
+
+		}
+	.note_hindi{
+		width:22%;
+		height: ;
+		margin-left: 10%;
+		}
+	.note_math{
+		width:22%;
+		height: ;
+		margin-left: 10%;
+		}
+	nav img{
+		height: 65px;
+	} 
+
+}
+
+@media (max-width: 943px){
+	nav ul{
+		margin-left: 5%;
+	}
+	.note_english{
+		width:25%;
+		height: ;
+		margin-left: 7%;
+		}
+	.note_computer{
+		width:25%;
+		height: ;
+		margin-left:7%;
+		}
+	.note_sst{
+		width:25%;
+		height: ;
+		margin-left:7%;
+
+
+		}
+	.note_science{
+		width:25%;
+		height: ;
+		margin-left: 7%;
+
+		}
+	.note_hindi{
+		width:25%;
+		height: ;
+		margin-left: 7%;
+		}
+	.note_math{
+		width:25%;
+		height: ;
+		margin-left: 7%;
+		}
+	.headline{
+		height:10vh;
+	}	
+	nav{
+		opacity: 1;
+	}
+	.headline h1{
+		line-height: 60px;
+		font-size: 30px;
+	}
+	@keyframes kunal1{
+    0%{
+        color:groove ;
+    }
+    50%{
+        transform: rotateY(90deg);
+        font-size:10px;
+    }
+    100%{
+    	color:red;
+    	 transform: rotateY(0deg);
+        font-size:40px;
+    }
+
+}
+}
+@media (max-width: 843px){
+		nav ul{ 
+			left:10%;
+		}
+	.note_english{
+		width:28%;
+		height: ;
+		margin-left: 3%;
+		}
+	.note_computer{
+		width:28%;
+		height: ;
+		margin-left:5%;
+		}
+	.note_sst{
+		width:28%;
+		height: ;
+		margin-left:5%;
+
+
+		}
+	.note_science{
+		width:28%;
+		height: ;
+		margin-left: 3%;
+
+		}
+	.note_hindi{
+		width:28%;
+		height: ;
+		margin-left: 5%;
+		}
+	.note_math{
+		width:28%;
+		height: ;
+		margin-left: 5%;
+		}
+	.headline{
+		height:10vh;
+	}
+	@media (max-width: 790px){
+		nav ul{ 
+			left:5%;
+		}
+	.note_english{
+		width:28%;
+		height: ;
+		margin-left: 3%;
+		}
+	.note_computer{
+		width:28%;
+		height: ;
+		margin-left:5%;
+		}
+	.note_sst{
+		width:28%;
+		height: ;
+		margin-left:5%;
+
+
+		}
+	.note_science{
+		width:28%;
+		height: ;
+		margin-left: 3%;
+
+		}
+	.note_hindi{
+		width:28%;
+		height: ;
+		margin-left: 5%;
+		}
+	.note_math{
+		width:28%;
+		height: ;
+		margin-left: 5%;
+		}
+	.headline{
+		height:10vh;
+	}
+
+
+}
+@media (max-width: 745px){
+	nav ul li{
+		float: none;
+		width: 100%;
+		padding-bottom:3px;
+	}
+	nav ul li:hover{
+		border-radius: 0px;
+		opacity: 0.9;
+		cursor: pointer;
+	}
+	nav{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	nav ul{
+		/*border: 2px solid red;*/
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		left: 0px;
+		display: none;
+
+	}
+	nav button{
+		border-radius: 5px;
+		width: 80px;
+		display: block;
+		height:30px;		
+		position: absolute;
+		top: 89px;
+		left: 84%;
+		background-color: yellow;
+		font-size: 17px;
+		text-transform: capitalize;
+		border:4px double black;
+		cursor: pointer;
+
+	}
+	nav img{
+		height:65px;
+		padding-bottom: 2.5px;
+		padding-top: 2.5px;
+		box-sizing: border-box;
+	}
+
+
+@media (max-width: 725px){
+	#english{
+		/*border:2px solid red;*/
+		width: 50%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.note_english{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_computer{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_sst{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_science{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_hindi{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_math{
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.next_item{
+		margin-top: 0;
+
+				width: 140%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		/*border:2px solid red;*/
+	}
+	#container{
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+	}
+	.showox{
+		position: absolute;
+		top: 30%;
+		left:0;
+		width: 100%;
+		/*border: 3px solid lime;*/
+	}
+	.showbox2{
+		padding: 0;
+		position: absolute;
+		top: 30%;
+		left:0;
+		width: 100%;
+		
+		/*border: 3px solid lime;*/
+	}	
+
+@media (max-width:663px ){
+		.note_english{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_computer{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_sst{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_science{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_hindi{
+		width: 60%;
+		margin-left: 20%;
+	}
+		.note_math{
+		width: 60%;
+		margin-left: 20%;
+	}		
+}
+
+@media (max-width: 604px){
+		.note_english{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_computer{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_sst{
+		width: 70%;
+		margin-left: 20%;
+	}
+		.note_science{
+		width: 60%;
+		margin-left: 10%;
+	}
+		.note_hindi{
+		width: 60%;
+		margin-left: 10%;
+	}
+		.note_math{
+		width: 60%;
+		margin-left: 10%;
+	}	
+}
+@media (max-width: 585px){
+		.note_english{
+		width: 80%;
+		margin-left: 10%;
+	}
+		.note_computer{
+		width: 80%;
+		margin-left: 10%;
+	}
+		.note_sst{
+		width: 80%;
+		margin-left: 10%;
+	}
+		.note_science{
+		width: 60%;
+		margin-left: 5%;
+	}
+		.note_hindi{
+		width: 60%;
+		margin-left: 5%;
+	}
+		.note_math{
+		width: 60%;
+		margin-left: 5%;
+	}	
+}
+@media (max-width: 510px){
+	#container{
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+		.next_item{
+		margin-top: 0;
+
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		/*border:2px solid red;*/
+	}
+		#english{
+		/*border:2px solid red;*/
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20px; 
+	}
+		.note_english{
+		width: 50%;
+		margin-left: 25%;
+	}
+		.note_computer{
+		width: 50%;
+		margin-left: 25%;
+	}
+		.note_sst{
+		width: 50%;
+		margin-left:25%;
+	}
+		.note_science{
+		width: 50%;
+		margin-left: 25%;
+	}
+		.note_hindi{
+		width: 50%;
+		margin-left: 25%;
+	}
+		.note_math{
+		width: 50%;
+		margin-left:25%;
+	}
+	nav button{
+		left:80%;
+	}
+#btn_hide{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+	}
+#btn_hide1{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+}
+#btn_hide2{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+}
+#btn_hide3{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+}
+#btn_hide4{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+}
+#btn_hide5{
+		width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-left: 35%;
+}
+
+ }
+
+
+
+
+
+
+
+
+
+ @media (max-width: 803px){
+.box_content button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		
+
+}
+}
+@media (max-width: 725px){
+	.box_content button{
+	margin-top: 10px;
+	margin-left: 10%;
+			width:180px;
+		height: 60px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		
+
+}
+}
